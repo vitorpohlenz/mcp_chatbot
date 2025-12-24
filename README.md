@@ -74,6 +74,8 @@ mcp_chatbot/
 
 ---
 
+# Setup & Instructions
+
 ## Requirements
 
 - Tested with Python **3.9.7**
@@ -86,6 +88,14 @@ mcp_chatbot/
 Create a `.env` file in the project root folder, following the `.env.example` file
 
 ---
+
+## Create a virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate       # macOS/Linux
+venv\Scripts\activate          # Windows
+```
+
 
 ## Installation
 
