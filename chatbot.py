@@ -1,3 +1,5 @@
+import sys
+sys.dont_write_bytecode = True
 from llm_client import LLMClient
 from mcp_client import MCPClient
 

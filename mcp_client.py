@@ -1,3 +1,5 @@
+import sys
+sys.dont_write_bytecode = True
 import httpx
 
 MCP_SERVER_URL = "https://vipfapwm3x.us-east-1.awsapprunner.com/mcp"

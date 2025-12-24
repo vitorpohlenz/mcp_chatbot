@@ -1,3 +1,5 @@
+import sys
+sys.dont_write_bytecode = True
 from openai import OpenAI
 import os
 import dotenv
